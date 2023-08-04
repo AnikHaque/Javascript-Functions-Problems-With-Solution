@@ -5,11 +5,11 @@
 // convert(3) ➞ 180
 
 // Solution: 
-function getFirstValue(arr) {
-  if (Array.isArray(arr) && arr.length > 0) {
-    return arr[0];
-  } else {
-    // Return some default value or handle the case when the array is empty or not an array
-    return undefined;
-  }
+function convert(minutes) {
+  return minutes * 60;
 }
+
+// Test cases
+console.log(convert(5)); // Output: 300
+console.log(convert(3)); // Output: 180
+
