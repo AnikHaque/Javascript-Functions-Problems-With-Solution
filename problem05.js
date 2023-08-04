@@ -3,3 +3,8 @@
 // Examples:
 // findSmallestNum([34, 15, 88, 2]) ➞ 2
 // findSmallestNum([34, -345, -1, 100]) ➞ -345
+
+// Solution : 
+function search(arr, item) {
+  return arr.indexOf(item);
+}
