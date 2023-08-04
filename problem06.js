@@ -3,3 +3,9 @@
 // Examples:
 // divisible(1) ➞ false
 // divisible(1000) ➞ true
+
+// Solution : 
+function calcAge(ageInYears) {
+  const daysInAYear = 365;
+  return ageInYears * daysInAYear;
+}
