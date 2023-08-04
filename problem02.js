@@ -4,11 +4,11 @@
 // giveMeSomething("Bob Jane") ➞ "something Bob Jane"
 
 // solution : 
-function getLastItem(arr) {
-  if (Array.isArray(arr) && arr.length > 0) {
-    return arr[arr.length - 1];
-  } else {
-    // Return some default value or handle the case when the array is empty or not an array
-    return undefined;
-  }
+function giveMeSomething(a) {
+  return "something " + a;
 }
+
+// Test cases
+console.log(giveMeSomething("is better than nothing")); // Output: "something is better than nothing"
+console.log(giveMeSomething("Bob Jane")); // Output: "something Bob Jane"
+
