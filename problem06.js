@@ -5,7 +5,11 @@
 // divisible(1000) ➞ true
 
 // Solution : 
-function calcAge(ageInYears) {
-  const daysInAYear = 365;
-  return ageInYears * daysInAYear;
+function divisible(num) {
+  return num % 100 === 0;
 }
+
+// Test cases
+console.log(divisible(1));    // Output: false
+console.log(divisible(1000)); // Output: true
+
