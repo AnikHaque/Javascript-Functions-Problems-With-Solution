@@ -3,3 +3,8 @@
 // Examples:
 // boolToString(true) ➞ "true"
 // boolToString(false) ➞ "false"
+
+// Solution : 
+function isEmpty(str) {
+  return str.trim() === "";
+}
