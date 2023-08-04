@@ -5,6 +5,11 @@
 // findSmallestNum([34, -345, -1, 100]) ➞ -345
 
 // Solution : 
-function search(arr, item) {
-  return arr.indexOf(item);
+function findSmallestNum(arr) {
+  return Math.min(...arr);
 }
+
+// Test cases
+console.log(findSmallestNum([34, 15, 88, 2]));      // Output: 2
+console.log(findSmallestNum([34, -345, -1, 100])); // Output: -345
+
