@@ -3,3 +3,8 @@
 // Examples:
 // lessThanOrEqualToZero(5) ➞ false
 // lessThanOrEqualToZero(0) ➞ true
+
+// Solution : 
+function remainder(a, b) {
+  return a % b;
+}
