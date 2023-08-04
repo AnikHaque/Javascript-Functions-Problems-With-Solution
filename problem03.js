@@ -5,6 +5,11 @@
 // boolToString(false) ➞ "false"
 
 // Solution : 
-function isEmpty(str) {
-  return str.trim() === "";
+function boolToString(flag) {
+  return flag.toString();
 }
+
+// Test cases
+console.log(boolToString(true));  // Output: "true"
+console.log(boolToString(false)); // Output: "false"
+
