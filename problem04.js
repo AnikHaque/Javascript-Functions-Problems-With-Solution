@@ -5,6 +5,11 @@
 // lessThanOrEqualToZero(0) ➞ true
 
 // Solution : 
-function remainder(a, b) {
-  return a % b;
+function lessThanOrEqualToZero(number) {
+  return number <= 0;
 }
+
+// Test cases
+console.log(lessThanOrEqualToZero(5)); // Output: false
+console.log(lessThanOrEqualToZero(0)); // Output: true
+
